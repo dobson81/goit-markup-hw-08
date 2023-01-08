@@ -1,0 +1,45 @@
+
+
+/*COLORS*/
+// $primaryColor: #ffffff;
+// $secondaryDarkColor: #212121;
+// $secondaryGraycolor:#2f303a;
+// $defalutHoverColor : #2196f3;
+// $primaryFontColor: #000000;
+/*FONTS*/
+// $primaryFont: 'Roboto', sans-serif;
+// $secondaryFont: 'Raleway';
+// $primaryFontWeight: 500;
+// $secondaryFontWeight: 700;
+// $primaryFontSize: 14px;
+// $secondaryFontSize: 16px;
+/*TRANSITION*/
+// $mainTransition: 250ms;
+/*CUBIC*/
+// $cubic: cubic-bezier(0.4, 0, 0.2, 1);
+/*BORDER-RADIUS*/
+// $bRadius: 4px;
+
+
+:root{
+    /*COLORS*/
+--primaryColor: #ffffff;
+--secondaryDarkColor: #212121;
+--defalutHoverColor: #2196f3;
+--secondaryGrayColor: #2f303a;
+--gradientColor: rgba(47, 48, 58, 0.4);
+--gray: #757575;
+--bright: #f5f4fa;
+/*FONTS*/
+--primaryFontColor: #000000;
+--primaryFont: 'Roboto', sans-serif;
+--secondaryFont: 'Raleway';
+--primaryFontWeight: 500;
+--secondaryFontWeight: 700;
+--primaryFontSize: 14px;
+--secondaryFontSize: 16px;
+/*CUBIC*/
+--cubic: cubic-bezier(0.4, 0, 0.2, 1);
+/*TRANSITION*/
+--mainTransition: 250ms;
+}

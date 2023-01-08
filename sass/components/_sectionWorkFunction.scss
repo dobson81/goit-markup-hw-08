@@ -1,0 +1,47 @@
+.container .work__images {
+    margin: auto;
+  }
+
+  .box-box {
+    background-color: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    bottom: 4px;
+  }
+  .work {
+    padding-top: 0;
+  
+  &__title {
+    font-weight: var(--secondaryFontWeight);
+    font-size: 36px;
+    line-height: 1.16;
+  
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__images {
+    list-style-type: none;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 215px;
+  
+    justify-content: space-between;
+    padding: 0px 15px;
+  }
+  &__item {
+    position: relative;
+  }
+  
+  &__text {
+    text-transform: uppercase;
+    font-size: var(--primaryFontSize);
+    color: var(--primaryColor);
+    font-weight: var(--secondaryFontWeight);
+    letter-spacing: 1px;
+  }
+  }

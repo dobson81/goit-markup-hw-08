@@ -1,0 +1,42 @@
+
+.hero {
+  background: var(--secondaryGrayColor);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, var(--gradientColor), var(--gradientColor)),
+    url('../images/img10.jpg');
+  max-width: 1600px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  &__title{
+    width: 696px;
+
+  color: var(--primaryColor);
+
+  font-size: 44px;
+  letter-spacing: 6px;
+  line-height: 1.36;
+  }
+  &__button{
+    width: 200px;
+    padding: 10px 41px 10px 42px;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.87;
+    background: var(--defalutHoverColor);
+    border: 1px solid var(--defalutHoverColor);
+    border-radius: 4px;
+    color: var(--primaryColor);
+  }
+}
+.hero__button:hover,
+.hero__button:focus {
+  cursor: pointer;
+  transition: var(--mainTransition) var(--cubic);
+}

@@ -1,0 +1,52 @@
+.our-clients-container {
+    padding: 0px 15px;
+  }
+.clients{
+    &__title {
+        font-size: 36px;
+        font-weight: var(--secondaryFontWeight);
+        text-align: center;
+        margin-bottom: 50px;
+        color: var(--secondaryDarkColor);
+      }
+      
+      &__icons {
+        display: flex;
+      
+        justify-content: space-between;
+      }
+      &__box {
+        border: 1px solid #afb1b8;
+        border-radius: 4px;
+        width: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 17.71px;
+        padding-bottom: 14.25px;
+        
+      }
+}  
+.clients{
+    &__box:hover {
+        border: 1px solid var(--defalutHoverColor);
+        transition: var(--mainTransition) var(--cubic);
+      }
+      &__link {
+        fill: #afb1b8
+      }
+      &__link:hover {
+        fill: var(--defalutHoverColor);
+        transition: var(--transitionTime) var(--cubic);
+      }
+      &__link:focus {
+        fill: var(--defalutHoverColor);
+        transition: var(--mainTransition) var(--cubic);
+      }
+}
+.clients{
+&__box:hover svg {
+    fill: var(--defalutHoverColor);
+    transition: var(--mainTransition) var(--cubic);
+  }
+}

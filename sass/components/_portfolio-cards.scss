@@ -1,0 +1,80 @@
+.cards {
+    list-style-type: none;
+    margin-top: 56px;
+    padding: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: var(--primaryColor);
+    &__image {
+        vertical-align: middle;
+      }
+      &__item:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+          1px 4px 6px rgba(0, 0, 0, 0.16);
+        transition: var(--transitionTime) var(--cubic);
+      }
+      
+      &__title {
+        font-weight: var(--secondaryFontWeight);
+        font-size: 18px;
+        line-height: 2;
+      
+        letter-spacing: 0.06em;
+      }
+    }
+    .cards
+    {
+        &__name {
+            font-size: var(--secondaryFontSize);
+            line-height: 1.87;
+          
+            margin-top: 4px;
+            letter-spacing: 0.03em;
+            display: flex;
+            flex-direction: column;
+            color: var(--gray);
+          }
+          &__description {
+            padding-left: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eeeeee;
+            border-right: 1px solid #eeeeee;
+            border-left: 1px solid #eeeeee;
+            padding-top: 20px;
+          }
+    }
+    .cards{
+        &__box {
+            width: 370px;
+            height: 294px;
+          
+            position: relative;
+            overflow: hidden;
+          }
+          &__box:hover &__overlay {
+            transform: translatey(0);
+          }
+          
+          &__overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(33, 150, 243, 0.9);
+          
+            transform: translatey(100%);
+            transition: transform 250ms ease;
+          }
+          
+          &__text {
+            color: var(--primaryColor);
+            font-size: 18px;
+            line-height: 1.55;
+            padding-top: 49px;
+            padding-right: 45px;
+            padding-bottom: 49px;
+            padding-left: 24px;
+          }
+    }

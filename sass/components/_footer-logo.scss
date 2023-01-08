@@ -1,0 +1,22 @@
+.footer {
+    background: #2f303a;;
+    display: flex;
+  
+  
+  &__logo {
+    font-family: var(--secondaryFont);
+    color: var(--primaryColor);
+    font-weight: var(--secondaryFontWeight);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    padding-top: 60px;
+    display: flex;
+    text-decoration: none;
+  }
+}
+.footer__container {
+  display: flex;
+
+  padding-left: 15px;
+}

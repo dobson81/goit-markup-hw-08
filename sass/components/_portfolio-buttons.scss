@@ -1,0 +1,31 @@
+
+.buttons__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  .buttons__item {
+    padding: 6px 22px;
+    border: none;
+    background: var(--bright);
+    border-radius: 4px;
+    margin-right: 8px;
+    font-family: 'Roboto';
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  .buttons{
+  &__item:hover,
+  &__item:focus {
+    color: var(--primaryColor);
+    cursor: pointer;
+    outline: none;
+    background-color: var(--defalutHoverColor);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: var(--mainTransition) var(--cubic);
+  }
+  }
