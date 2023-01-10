@@ -18,7 +18,27 @@ body{
     margin: auto;
   }
   .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+   .section{
     padding-top: 94px;
     padding-bottom: 94px;
+   }
   }
-  
+//   img {
+//     display: block;
+//     max-width: 100%;
+//     height: auto;
+// }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}

@@ -18,8 +18,8 @@
     width: 696px;
 
   color: var(--primaryColor);
-
-  font-size: 44px;
+font-weight: 900;
+  font-size: 26px;
   letter-spacing: 6px;
   line-height: 1.36;
   }
@@ -28,11 +28,18 @@
     padding: 10px 41px 10px 42px;
     margin-top: 30px;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.6;
     background: var(--defalutHoverColor);
     border: 1px solid var(--defalutHoverColor);
     border-radius: 4px;
     color: var(--primaryColor);
+  }
+}
+@media screen and (min-width: 1200px)
+{
+  .hero__title{
+    font-size: 44px;
+    line-height: calc(60 /44 );
   }
 }
 .hero__button:hover,
