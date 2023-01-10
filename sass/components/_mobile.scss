@@ -1,6 +1,9 @@
 .menu-toggle
 {
   background-color: black;
+  border: none;
+ 
+
 }
 @media  screen and (min-width: 747px) {
   .menu-toggle{
@@ -67,7 +70,11 @@ text-decoration: none;
 .mobile-menu{
   margin-top: 48px;
   margin-bottom: 302px;
-  background-color: aqua;
+  
+}
+.mobile-menu a:hover
+{
+  color: var(--defalutHoverColor);
 }
 .mobile-menu :first-child{
   padding-bottom: 36px;;
@@ -88,7 +95,8 @@ text-decoration: none;
   
 }
 .mobile-contacts-email{
-  color:var(--gray)
+  color:var(--gray);
+  font-size: 20px;
 }
 .mobile-contacts{
   margin-bottom: 64px;
@@ -99,5 +107,16 @@ text-decoration: none;
 }
 .mobile-socials{
   display: flex;
-  padding-right: 20px;
+}
+.mobile-socials a{
+  color: var(--defalutHoverColor);
+}
+.mobile-socials :first-child{
+  margin-right: 20px;
+}
+.mobile-socials :nth-child(2){
+  margin-right: 20px;;
+}
+.mobile-socials :nth-child(3){
+  margin-right: 20px;
 }
