@@ -8,14 +8,27 @@ body{
     color: var(--secondaryDarkColor);
     background-color: #e5e5e5;
 }
-.wrapper
-{
-    background-color: var(--primaryColor);
-    margin:auto;
-}
+// .wrapper
+// {
+//     background-color: var(--primaryColor);
+//     margin:auto;
+// }
 .container {
-    width: 1200px;
+   max-width: 1200px;
+   min-width: 480;
     margin: auto;
+  }
+  @media screen and (min-width: 768px)
+  {
+    .container{
+     min-width: 768px;
+    }
+  }
+  @media screen and (min-width: 1200px)
+  {
+    .container{
+      width: 1200px;
+    }
   }
   .section {
     padding-top: 60px;

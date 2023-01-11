@@ -14,7 +14,7 @@
   }
   .work {
     padding-top: 0;
-  
+  background-color: var(--primaryColor);
   &__title {
     font-weight: var(--secondaryFontWeight);
     font-size: 36px;
@@ -44,4 +44,10 @@
     font-weight: var(--secondaryFontWeight);
     letter-spacing: 1px;
   }
+  }
+  @media screen and (max-width: 1199px)
+  {
+    .work{
+      display: none;
+    }
   }
