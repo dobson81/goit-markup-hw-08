@@ -27,6 +27,10 @@
     @media(min-width:768px){
       flex-direction: row;
       flex-wrap:wrap;
+      gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+      
     }
     @media(min-width: 1200px)
     {
@@ -48,9 +52,10 @@
       {
         width: 270px;
       }
-      @media(min-width:768px) and (max-width:1199px)
+      @media(min-width:767px) and (max-width:1199px)
       {
         width: 354px;
+        
       }
   }
   
@@ -76,9 +81,9 @@
   &__box {
     width: 206px;
     height: 56px;
-    margin-left: 32px;
+    // margin-left: 32px;
     margin-bottom: 18px;
-  
+  margin-left:122px;
     display: flex;
     justify-content: space-between;
   }
