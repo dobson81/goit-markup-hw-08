@@ -14,18 +14,26 @@
       
       &__icons {
         display: flex;
-      
+      flex-wrap: wrap;
         justify-content: space-between;
       }
       &__box {
         border: 1px solid #afb1b8;
         border-radius: 4px;
-        width: 170px;
+        width: 210px;
         display: flex;
         justify-content: center;
         align-items: center;
         padding-top: 17.71px;
         padding-bottom: 14.25px;
+        @media(min-width:1200px)
+        {
+          width: 170px;
+        }
+        @media(min-width:768px) and (max-width:1199px)
+        {
+          width: 226px;
+        }
         
       }
 }  
@@ -52,3 +60,8 @@
     transition: var(--mainTransition) var(--cubic);
   }
 }
+// &__icons {
+//   display: flex;
+
+//   justify-content: space-between;
+// }
