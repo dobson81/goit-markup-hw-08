@@ -141,3 +141,37 @@
   //   justify-content: space-between;
   //   padding: 0px 15px;
   // }
+  
+// .stuff{
+    
+//   &__circle:hover,
+//   &__circle:focus {
+//     background-color: var(--defalutHoverColor);
+//     fill: var(--primaryColor);
+//     transition: var(--mainTransition) var(--cubic);
+//   }
+
+// }
+// .stuff{
+//   &__circle:focus svg {
+//       background-color: var(--defalutHoverColor);
+//       fill: var(--primaryColor);
+//       transition: var(--mainTransition) var(--cubic);
+//     }
+//     &__circle:hover svg {
+//       fill: var(--primaryColor);
+//       transition: var(--mainTransition) var(--cubic);
+//     }
+// }
+// .stuff__link {
+//   fill: #afb1b8;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+.img-check
+{
+ max-width: 100%;
+  height: auto;
+  display: block;
+}
