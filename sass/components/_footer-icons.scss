@@ -1,5 +1,5 @@
 .social-icons {
-    margin-left: 70px;
+    
     padding-top: 72px;
     &__text {
         text-transform: uppercase;
@@ -51,3 +51,56 @@
             align-items: center;
           }
     }
+  //   .social-icons {
+  //     margin-left: 70px;
+  //     padding-top: 72px;
+  //     &__text {
+  //         text-transform: uppercase;
+  //         color: #fff;
+  //         line-height: 1.17;
+        
+  //         font-weight: var(--secondaryFontWeight);
+  //         letter-spacing: 0.3px;
+  //       }
+        
+  //       &__box {
+  //         width: 206px;
+        
+  //         margin-top: 20px;
+  //         display: flex;
+  //         justify-content: space-between;
+  //       }
+  //       &__link {
+  //         fill: var(--primaryColor);
+  //         display: flex;
+  //         justify-content: center;
+  //         align-items: center;
+  //       }
+        
+  //       &__circle {
+  //         background-color: rgba(255, 255, 255, 0.1);
+  //         width: 44px;
+  //         height: 44px;
+  //         border-radius: 100%;
+  //         display: flex;
+  //         align-items: center;
+  //         justify-content: center;
+  //         cursor: pointer;
+  //       }
+  //     }
+  //     .social-icons{
+  //         &__circle:hover,
+  // &__circle:focus {
+  //   background-color: var(--defalutHoverColor);
+  //   transition: var(--mainTransition) var(--cubic);
+  // }
+  //     }
+  //     .social-icons{
+  //         &__smallBox {
+  //             width: 44px;
+  //             height: 44px;
+  //             display: flex;
+  //             justify-content: center;
+  //             align-items: center;
+  //           }
+  //     }

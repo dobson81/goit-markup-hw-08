@@ -1,7 +1,9 @@
 .menu-toggle
 {
-  background-color: black;
+  background-color: transparent;
   border: none;
+  margin-right: 22px;
+  margin-top: 22px;
  
 
 }
@@ -9,8 +11,11 @@
   .menu-toggle{
     display:none;
   }
-  
+ 
 }
+// .menu-mobile-open {
+//   margin-right: 252px;
+// }
 .menu-toggle:hover,
 .menu-toggle:focus {
   background-color: rgba(0, 0, 0, 0.1);

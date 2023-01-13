@@ -19,19 +19,25 @@
     .top-box
     {
         display: flex;
+        justify-content: space-between;
     }
     .top-box__logo-link
     {
         font-family: var(--secondaryFont);
   color: var(--primaryFontColor);
   font-weight: var(--secondaryFontWeight);
-  font-size: 26px;
+  font-size: 24px;
   line-height: 0.72;
   letter-spacing: 0.03em;
   display: flex;
   align-items: center;
-  text-decoration: none;  
-
+  text-decoration: none; 
+  
+@media (max-width: 480px)
+{
+  margin-left: 15px; 
+  
+}
 
     }
     .top-box__logo-link--blue
@@ -112,3 +118,4 @@
       display: none;
     }
   }
+  
