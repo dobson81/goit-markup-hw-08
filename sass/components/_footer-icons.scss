@@ -1,18 +1,18 @@
 .social-icons {
+    margin-bottom: 60px;
     
-    padding-top: 72px;
     &__text {
         text-transform: uppercase;
         color: #fff;
         line-height: 1.17;
-      
+      text-align: center;
         font-weight: var(--secondaryFontWeight);
         letter-spacing: 0.3px;
       }
       
       &__box {
         width: 206px;
-      
+      margin-left: 20px;
         margin-top: 20px;
         display: flex;
         justify-content: space-between;
