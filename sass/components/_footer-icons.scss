@@ -54,6 +54,15 @@
             align-items: center;
           }
     }
+    @media(min-width:767px)
+    {
+      .social-icons{
+        // margin-left: 384px;
+        position:absolute;
+        left:480px;
+        top: -150px
+      }
+    }
   //   .social-icons {
   //     margin-left: 70px;
   //     padding-top: 72px;

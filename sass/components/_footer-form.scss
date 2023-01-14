@@ -31,6 +31,15 @@
     padding-left: 30px;
     
   }
+  @media(min-width:767px)
+  {
+    .bottomText{
+      position: absolute;
+      top:100px;
+      right:300px;
+      
+    }
+  }
   .submit-btn {
     margin-left: 140px;
     margin-bottom: 60px;

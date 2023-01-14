@@ -16,6 +16,7 @@
       &__item--middle {
         margin-bottom: 9px;
       }
+     
       &__link {
         text-decoration: none;
         color: var(--primaryColor);
@@ -23,6 +24,30 @@
         font-style: normal;
         letter-spacing: 0.03em;
       }
+      @media(min-width:767px)
+      {
+        .footer-address__list
+        {
+          align-items: flex-start;
+          // padding-left: 76px;
+          position:absolute;
+          top:-110px;
+          left: 66px;
+          
+          
+        }
+      }
+      @media(min-width:767px)
+      {
+        .footer-address__item--middle{
+          padding-left: 40px;
+        }
+      }
+}
+@media(min-width:767px){
+  .footer-address__item--bottom{
+    padding-left: 44px;
+  }
 }
 .footer-address{
     &__link--middle {
