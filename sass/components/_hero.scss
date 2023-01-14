@@ -50,7 +50,7 @@
   url('../images/Imgx2big.jpg');
 }
   &__title{
-    width: 696px;
+   max-width: 696px;
 
   color: var(--primaryColor);
 font-weight: 900;
