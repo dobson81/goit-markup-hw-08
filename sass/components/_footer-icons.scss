@@ -54,13 +54,13 @@
             align-items: center;
           }
     }
-    @media(min-width:767px)
+    @media(min-width:767px) and (max-width:1199px)
     {
       .social-icons{
         // margin-left: 384px;
         position:absolute;
-        left:480px;
-        top: -165px
+        left:450px;
+        top: -170px
       }
     }
   //   .social-icons {
@@ -116,3 +116,23 @@
   //             align-items: center;
   //           }
   //     }
+  @media(min-with:1200px)
+  {
+    .social-icons{
+      margin-left: 70px;
+          padding-top: 72px;
+          display:flex;
+          flex-direction: row;
+    }
+  }
+  @media(min-with:1200px)
+  {
+    .social-icons__box{
+      width: 206px;
+        
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+    }
+  }
