@@ -16,11 +16,12 @@
         display: flex;
       flex-wrap: wrap;
         justify-content: space-between;
+        gap:30px;
       }
       &__box {
         border: 1px solid #afb1b8;
         border-radius: 4px;
-        width: 210px;
+        width: calc((100% - 30px) / 2);
         display: flex;
         justify-content: center;
         align-items: center;
