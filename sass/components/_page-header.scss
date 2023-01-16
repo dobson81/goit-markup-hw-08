@@ -21,6 +21,10 @@
      display: flex;
      justify-content: space-between;
      padding: 10px 15px;
+     @media(min-width:767px)
+     {
+      padding: 0 15px;
+     }
  }
  .top-box__logo-link
  {
@@ -62,7 +66,7 @@ justify-content: space-between;
  border: 2px solid var(--defalutHoverColor);
  display: block;
  position: relative;
- top: 33px;
+ top: 21px;
  border-radius: 4px;
  background-color: var(--defalutHoverColor);
 }
@@ -92,14 +96,23 @@ transition: var(--mainTransition) var(--cubic);
 
 
  &__item--left{
-     margin-right: 0px;
+     
  }
  &__link{
      text-decoration: none;
      color: var(--gray);
      line-height: 1.17;
+     
  }
 }
+@media(min-width: 767px) and (max-width:1199px)
+{
+  .contacts__item--right
+  {
+margin-right: 30px;
+  }
+}
+
 @media(max-width:767px){
   .contacts{
     display: none;
@@ -112,6 +125,7 @@ flex-direction: row;
  align-items: center;
  margin-right: 50px;
  gap: 30px;
+
 }
 }
 // // @media (max-width:1199)
@@ -141,13 +155,20 @@ transition: var(--mainTransition)  var(--cubic);
 
 }
 .contacts__icon-envelope {
- margin-right: 10px;
+ margin-right: 8px;
  vertical-align: middle;
+ @media(min-width:1199px){
+ margin-right:8px;}
+
 }
 
 .contacts__icon-smartphone {
- margin-right: 10px;
+ margin-right: 8px;
  vertical-align: middle;
+ @media(min-width:1199px)
+ {
+  margin-right:10px;
+ }
 }
 
 /*DESKTOP*/
