@@ -125,6 +125,7 @@
           margin-top: 20px;
           line-height: 1.5;
           padding-bottom: 60px;
+          align-items: flex-start;
   }
   .footer-address__link
   {
@@ -134,5 +135,12 @@
       font-style: normal;
       letter-spacing: 0.03em;
   }
+  
 
+}
+@media(min-width:1199px)
+{
+  .footer__box{
+    margin-right:70px;
+  }
 }
