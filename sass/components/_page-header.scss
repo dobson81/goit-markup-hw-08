@@ -3,12 +3,12 @@
   border-bottom: 1px solid #ececec;
   
  }
-//  @media screen and (max-width:767px )
-//  {
-//    .page-header{
-//      height: 60px;
-//    }
-//  }
+ @media screen and (min-width:767px )
+ {
+   .page-header{
+     height: 80px;
+   }
+ }
 @media screen and (max-width: 767px)
 {
  .nav{
