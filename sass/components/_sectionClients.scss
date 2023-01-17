@@ -3,6 +3,8 @@
   }
 .clients{
   background-color: var(--primaryColor);
+  padding-left: 15px;
+  padding-right: 15px;
     &__title {
         font-size: 36px;
         font-weight: var(--secondaryFontWeight);
