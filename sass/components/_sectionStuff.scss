@@ -88,7 +88,7 @@
   }
   
   &__box {
-    max-width: 206px;
+    max-width:206px;
     height: 56px;
     // margin-left: 32px;
     margin-bottom: 18px;
@@ -179,3 +179,8 @@
 //   align-items: center;
 // }
 
+.stuff__box-one{
+  display: flex;
+  justify-content: center;
+ width:100%
+}
