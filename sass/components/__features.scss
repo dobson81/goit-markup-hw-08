@@ -3,6 +3,8 @@
 .features{
   background-color: var(--primaryColor);
 }
+
+
 .features-list {
 
     list-style-type: none;
@@ -80,6 +82,7 @@
   .features-list{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px)
@@ -120,5 +123,17 @@
   align-items: center;
   padding: 25px 0;
   margin-bottom: 30px;
+  border-radius: 4px;
+  @media(min-width:1200px)
+  {
+    padding: 0;
+  }
  
+}
+@media(min-width:1200px)
+{
+  .features-list__item{
+    width: 270px;
+    
+  }
 }

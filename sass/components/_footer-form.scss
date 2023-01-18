@@ -69,7 +69,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+    @media(min-width:1199px)
+    {
+      position: relative;
+    }
   
   &__icon {
     fill: var(--primaryColor);
