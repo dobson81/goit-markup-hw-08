@@ -25,7 +25,7 @@
     margin-bottom: 20px;;
     height: 50px;
     width: calc(100vw - 30px);
-  
+  padding-left: 16px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: inherit;
@@ -33,6 +33,10 @@
     // padding-left: 30px;
     
   }
+ .bottom-form__email-btn::placeholder
+ {
+  
+ }
   @media(min-width:767px) and (max-width:1199px)
   {
     .bottom-form__email-btn{
