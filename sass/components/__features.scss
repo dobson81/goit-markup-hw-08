@@ -46,19 +46,20 @@
     color: #757575;
 }
 &__icon{
-   width: 100% ;
-    height: 120px;
+  //  width:100% ;
+    // height: 120px;
     background-color: #f5f4fa;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    padding-left: 192px;
+    // padding-bottom: 25px;
+    // padding-top: 25px;
+  //  justify-content: center;
     // padding-left:192px;
-    margin-bottom: 30px;
-  // margin-left: 15px;
+    // margin-bottom: 30px;
+  margin: 0 auto;
     border-radius: 4px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
    
   }
 }
@@ -109,4 +110,12 @@
     padding-left: 144px;
     // margin-bottom: 30px;
   }
+}
+.extra-div{
+  display: flex;
+ background-color: #f5f4fa;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+ 
 }
