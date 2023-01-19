@@ -1,7 +1,7 @@
 .bottom-form{
   display: flex;
   flex-direction: column;
-  max-width: 450px;
+  // max-width: 450px;
   align-items: center;
   
 }
@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     // width: 100%;
-    max-width:450px;
+    // max-width:450px;
 
     &__text {
         color: var(--primaryColor);
@@ -33,10 +33,7 @@
     // padding-left: 30px;
     
   }
- .bottom-form__email-btn::placeholder
- {
-  
- }
+ 
   @media(min-width:767px) and (max-width:1199px)
   {
     .bottom-form__email-btn{
@@ -73,10 +70,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    @media(min-width:1199px)
-    {
-      position: relative;
-    }
+    // @media(min-width:1199px)
+    // {
+    //   position: relative;
+    // }
   
   &__icon {
     fill: var(--primaryColor);
@@ -138,55 +135,41 @@
 //   right: 35px;
 // }
 // }
-@media(min-width:1200px)
-{
-  .bottom-form{
-    flex-direction:row;
+
+@media(min-width:1199px)
+{ .bottom-form {
+ flex-direction: row;
+ align-items: flex-start;
+ 
+}
+.footer__container{
+  display:flex;
+  justify-content:  space-between;
+  padding: 0 15px;
+}
+  .bottom-form__email-btn{
+    width: 358px;
     
   }
-
-  .bottomText{
-    margin-left: 78px;
-    margin-top: 72px;
-  align-items: flex-start;
-  }
-  .bottom-Text__text
-  {
-    color: var(--primaryColor);
-      ;
-      text-transform: uppercase;
-      font-weight: var(--secondaryFontWeight);
-      letter-spacing: 1px;
-  }
-  .bottom-form__email-btn{
-    margin-top: 20px;
-      height: 50px;
-      width: 358px;
-      border-radius: 4px;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      background-color: inherit;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      padding-left: 30px;
-  }
+  // .label-email{
+  //   padding: 0;
+  // }
   .submit-btn{
     margin-left: 12px;
-      width: 200px;
-      height: 50px;
-      background-color: var(--defalutHoverColor);
-      border-radius: 4px;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      border: 1px solid var(--blue);
-      padding-right: 40px;
-      color: var(--primaryColor);
-      letter-spacing: 0.06em;
-      font-weight: var(--secondaryFontWeight);
-      line-height: 1.87;
-      font-family: inherit;
-      position: relative;
-      cursor: pointer;
-      
-  }
+    display:flex;
+  width:200px;
+  margin-top:20px
 }
-.label-email{
-  
+ 
+  .bottomText{
+    margin-left:72px;
+   
+  }
+  .bottomText__text
+  {
+    padding-top: 60px;
+  }
+  .extra-btn{
+   
+  }
 }

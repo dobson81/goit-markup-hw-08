@@ -38,6 +38,14 @@
         cursor: pointer;
       }
     }
+    @media(min-width:1200px)
+    {
+      .social-icons{
+        margin-bottom: 45px;
+      }
+      
+    }
+
     .social-icons{
         &__circle:hover,
 &__circle:focus {
@@ -117,15 +125,4 @@
   //           }
   //     }
  
-  @media(min-with:1200px)
-  {
-    .social-icons__box{
-      width: 206px;
-        margin-left:0;
-          
-    }
-    .social-icons{
-      color: blueviolet;
-     background-color: aqua;
-    }
-  }
+ 
