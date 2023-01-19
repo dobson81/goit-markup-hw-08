@@ -10,11 +10,11 @@ background-position: center;
     (min-resolution:192dpi),
     (min-resolution: 2dppx){
       background-image: linear-gradient(to bottom, var(--gradientColor), var(--gradientColor)),
-      url('../images/HeaderImg.jpg');
+      url('../images/HeaderImg@2x.jpg');
      
     }
-  max-width: 480px;
-  height: 400px;
+  // max-width: 480px;
+  // height: 400px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -33,7 +33,7 @@ background-position: center;
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     background-image: linear-gradient(to bottom, var(--gradientColor), var(--gradientColor)),
-    url('../images/HeaderImg3.jpg');
+    url('../images/HeaderImg3@2x.jpg');
     
   }
   @media (min-width:1200px)
@@ -48,7 +48,7 @@ background-position: center;
    (min-resolution: 192dpi),
 (min-resolution:2dppx) {
   background-image: linear-gradient(to bottom, var(--gradientColor), var(--gradientColor)),
-  url('../images/Imgx2big.jpg');
+  url('../images/Imgx2big@2x.jpg');
 }
   &__title{
    max-width: 696px;
