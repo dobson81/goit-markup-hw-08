@@ -163,13 +163,16 @@
  
   .bottomText{
     margin-left:72px;
+    display: flex;
+    align-items: flex-start;
    
   }
   .bottomText__text
   {
     padding-top: 60px;
-  }
-  .extra-btn{
    
   }
+  // .extra-btn{
+   
+  // }
 }
