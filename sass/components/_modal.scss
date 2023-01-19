@@ -17,7 +17,7 @@
     align-items: center;
   }
   .modal {
-    width: 450px;
+    width: 90vw;
     min-height: 609px;
     background-color: var(--primaryColor);
   
@@ -25,6 +25,10 @@
     transition: 1s ease-in-out;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
+      @media(min-width:768px) and (max-width:1199px)
+      {
+        width:450px;
+      }
   }
   .backdrop.is-hidden .modal {
     transform: translateX(30%) translateY(30%) rotate(90deg);
@@ -43,6 +47,8 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    @media(min-width: 768px) and (max-width:1199px)
+    {margin-left: 410px;}
   }
   // .is-hidden {
   //   opacity: 0;
