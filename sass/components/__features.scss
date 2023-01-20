@@ -11,23 +11,17 @@
     letter-spacing: 0.03em;
     display: flex;
   flex-direction: column;
-    // margin: auto;
+    
     padding-left: 15px;
     padding-right: 15px;
     &__item :last-child{
-  //       width: 270px;
-  // margin-right: 30px;
+ 
  max-width: 450px;
   align-items: center;
   
  
   }
-  // .features-list__icon
-  // {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  // }
+  
   &__title{
 
   
@@ -49,14 +43,9 @@
 }
 
 &__icon{
-  //  width:100% ;
-    // height: 120px;
+  
     background-color: #f5f4fa;
-    // padding-bottom: 25px;
-    // padding-top: 25px;
-  //  justify-content: center;
-    // padding-left:192px;
-    // margin-bottom: 30px;
+    
   margin: 0 auto;
     border-radius: 4px;
     display: flex;
