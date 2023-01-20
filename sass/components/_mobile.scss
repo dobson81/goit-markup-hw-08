@@ -1,9 +1,6 @@
 .menu-toggle
 {
-  // background-color: transparent;
-  // border: none;
-  // margin-right: 22px;
-  // margin-top: 22px;
+ 
   min-height: 40px;
   min-width: 40px;
   display: flex;
@@ -46,7 +43,7 @@
 
   width: 100vw;
   max-height: 100vh;
-  // padding: 32px;
+  
   background-color: #fff;
   z-index: 999;
 
@@ -74,12 +71,7 @@
   opacity: 1;
 }
 
-// .menu-container .menu-toggle {
-//   position: absolute;
-//   top: 16px;
-//   right: 16px;
-//   color: #fff;
-// }
+
 .menu-container a {
 text-decoration: none;
 
@@ -91,7 +83,7 @@ text-decoration: none;
   
 }
 .mobile-menu{
-  // margin-top: 48px;
+  
   margin-bottom: 302px;
   margin-left: 40px;
   font-size: 40px;
@@ -138,15 +130,7 @@ text-decoration: none;
   justify-content: space-between;
   margin-left: 40px
 }
+
 .mobile-socials a{
   color: var(--defalutHoverColor);
 }
-// .mobile-socials :first-child{
-//   margin-right: 20px;
-// }
-// .mobile-socials :nth-child(2){
-//   margin-right: 20px;;
-// }
-// .mobile-socials :nth-child(3){
-//   margin-right: 20px;
-// }

@@ -71,8 +71,7 @@
 {
   .features-list__icon{
     width: 270px;
-    // padding-bottom: 25px;
-    // padding-top: 25px;
+   
     padding-left: 100px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -101,20 +100,16 @@
 {
   .features-list__item , .features-list__icon{
     width: 354px;
-    // padding-bottom: 25px;
-    // padding-top: 25px;
-    // padding-left: 100px;
-    // margin-bottom: 30px;
+    
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px)
 {
    .features-list__icon{
     width: 354px;
-    // padding-bottom: 25px;
-    // padding-top: 25px;
+    
     padding-left: 144px;
-    // margin-bottom: 30px;
+    
   }
 }
 .extra-div{
