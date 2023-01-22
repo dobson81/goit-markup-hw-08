@@ -44,7 +44,7 @@
  }
  .icons-svg {
     position: absolute;
-    top: 12px;
+    top: 14px;
     left: 10px;
   }
   .icons-svg:hover {
@@ -87,6 +87,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+       
         color: var(--gray);
         line-height: 1.71;
         font-size: var(--primaryFontSize);
@@ -96,6 +97,7 @@
       
       &__input {
         visibility: hidden;
+        
       }
       &__text {
         cursor: pointer;

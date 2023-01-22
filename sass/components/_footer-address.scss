@@ -83,16 +83,21 @@
           padding-bottom: 60px;
           align-items: flex-start;
   }
+  
   .footer-address__link
   {
     text-decoration: none;
-      color: var(--primaryColor);
+    color: var(--primaryColor);
     
       font-style: normal;
       letter-spacing: 0.03em;
   }
-  
-
+  .footer-address__link--middle{
+    color: rgba(255, 255, 255, 0.6);
+  }
+.footer-address__link--bottom{
+  color: rgba(255, 255, 255, 0.6);
+}
 }
 @media(min-width:1199px)
 {

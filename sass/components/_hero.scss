@@ -26,7 +26,8 @@ background-position: center;
     background-image: linear-gradient(to bottom, var(--gradientColor), var(--gradientColor)),
     url('../images/HeaderImg2.jpg');
     background-size: cover;
-    max-width: 768px;
+    width:100%;
+    max-width:1600px;
     height: 400px;
   }
   @media (min-device-pixel-ratio:2),
